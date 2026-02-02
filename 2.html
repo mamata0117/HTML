@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYPERLINKS</title>
+</head>
+<body>
+    <!-- For hyperlinks we use <a> tag. -->
+        <!-- you can use target attribute to open link in new tab.
+         if you use target= "_self"it will open in same tab.
+         using title attribute you can give additional information about the link. -->
+        <a href="https://www.google.com" target="_blank" title="Taking you to google">
+            Google
+        </a>
+        <br>
+<a href="https://pinterest.com" target="_blank" title="Taking you to Pinterest">
+            Pinterest
+        </a>
+        <hr>
+        <p>
+         <a href="1.html"> Go to Title 1
+    </a>
+    <a href="mailto:example@example.com" target="_blank">Send Email</a>
+        </p>
+
+        <!-- ADD IMAGES TO YOUR HTML PAGES -->
+         <!-- use img tag to add images to your html pages.Use source attribute to specify the path of the image i.e src attribute. -->
+       <a href="https://www.flower-images.com/">   <img src="images/download.jpg" alt="Image not found" height="300" width="200" title="You like flowers?">
+</a>
+        <!-- alt is used to provide alternative text for the image if it cannot be displayed.
+ you can add height and width attributes to specify the size of the image. -->
+
+<!-- ADD AUDIO TO YOUR HTML PAGES
+     use audio tag to add audio to your html pages.Use source attribute to specify the path of the audio i.e src attribute.
+         you can use controls attribute to add audio controls like play, pause, volume etc.
+       you can use muted attribute to mute the audio and loop ,also autoplay for autoplaying    by default -->
+        <audio  controls  >
+            <!-- <source>is used to add audio to your html pages.mp3" type="audio/mpeg"> -->
+            <source src="Music/sound.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+
+        </audio>
+        <!-- ADDING VIDEO TO YOUR HTML PAGES -->
+        <video controls src="Video/vid1.mp4" height="300" width="600">Video does not support</video>
+</body>
+
+</html>
