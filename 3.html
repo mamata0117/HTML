@@ -6,6 +6,66 @@
     <title>Text Formatting</title>
 </head>
 <body>
-    21:43
+    <div>
+   <p>This is a paragraph with some text.</p>
+   <p>This is a paragraph with <b>bold</b> text.</p>
+   <p>This is a paragraph with <i>italic</i> text.</p>
+    <p>This is a paragraph with <u>underlined</u> text.</p>
+     <p>This is a paragraph with <mark>highlighted</mark> text.</p>
+     <p>This is a paragraph with <small>small</small> text.</p>
+     <p>This is a paragraph with <big>bigger</big> text.</p>
+      <p>This is a paragraph with <sub>subscript</sub> text.</p> 
+      <p>This is a paragraph with <sup>superscript</sup> text.</p>
+       <p>This is a paragraph with <ins>inserted</ins> text.</p>
+        <p>This is a paragraph with <del>deleted</del> text.</p>
+        </div>
+
+        <h1>LISTS</h1>
+        <h4>Unordered List</h4>
+        <ul>
+            <!-- ul stands for unordered list and it is used to create a list of items in no particular order.
+            lets make a list of fruits-->
+            <li>
+               <!-- li stands for list item and it is used to create a list item in a list.-->
+                Apple
+            </li>
+            <li>Banana</li>
+            <li>Orange
+                <ul>
+                    <li>Red</li>
+                    <li>Green</li>
+                </ul>
+            </li>
+        </ul>
+        <h4>Ordered list</h4>
+        <ol type="I">
+            <!-- ol stands for ordered list and it is used to create a list of items in a particular order.
+            lets make a list of steps to make a cup of tea-->
+           <!---- also you can use type attribute to change the type of list
+              use type="A" to create a list with uppercase letters
+              use type="a" to create a list with lowercase letters
+             use type="I","1", "i" to create a list with roman numerals-->
+            <li> Add water to a kettle</li>
+            <li>Boil the water
+                <ol>
+                    <li>Medium heat</li>
+                    <li>large heat</li>
+                </ol>
+             </li>
+            <li>Add tea  and sugar leaves to the kettle</li>
+            <li>Let it steep for a few minutes</li>
+            <li>Strain the tea into a cup</li>
+        </ol>
+        <h4>Description List</h4>
+        <!-- dl stands for description list and it is used to create a list of terms and their descriptions.-->
+        <!----dt stands for description term and it is used to create a term in a description list.
+         dd stands for description definition and it is used to create a description for a term in a description list.-->
+        
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
 </body>
 </html>
