@@ -1,0 +1,29 @@
+.board{
+    border-style: ridge;
+    /* solid,dashed,dotted, double, groove, ridge, inset, outset, none, hidden; */
+    border-width: 5px;
+     /* border-width is used to specify the width of the border. */
+     border-color: gold;
+     border-radius: 6px;
+   border-top-left-radius:15px;
+    border-left-color: black;
+     padding: 50px;
+     /* padding is used to create space around the content inside the border. */
+
+}
+h1{
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: double;
+    border-left-width: 24px;
+    border-left-color: salmon;
+}
+#bg{
+    background: linear-gradient(rgb(216, 220, 221),rgb(233, 86, 196));
+}
+body{
+    background-image: url("../Images/images.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

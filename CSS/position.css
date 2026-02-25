@@ -1,0 +1,28 @@
+.box1{
+  border:1px solid;
+  height: 300px;
+  width:300px;
+  background-color: skyblue;
+  
+  /* position:relative; */
+  /* position: fixed; */
+  position: sticky;
+  top:0;
+  /* static is the default value of the position property. It means that the element will be positioned according to the normal flow of the document. The top, right, bottom, and left properties will have no effect on a statically positioned element. A statically positioned element will not be affected by any other elements on the page, and it will not affect any other elements on the page. */
+  /* relative means that the element will be positioned relative to its normal position. The top, right, bottom, and left properties will affect the position of a relatively positioned element. A relatively positioned element will not be affected by any other elements on the page, and it will not affect any other elements on the page. */ 
+  /* top:190px;
+  left:110px; */
+}
+.box2{
+  border:1px solid;
+  height: 100px;
+  width:100px;
+  background-color: rgb(224, 162, 80);
+   position: absolute;
+   top:85px;
+   left:85px;
+
+   /* absolute means that the element will be positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). If an absolutely positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling. The top, right, bottom, and left properties will affect the position of an absolutely positioned element. An absolutely positioned element will not be affected by any other elements on the page, and it will not affect any other elements on the page. */ 
+    
+}
+/* 36.25 */

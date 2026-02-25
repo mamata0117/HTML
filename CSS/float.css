@@ -1,0 +1,10 @@
+img{
+    float:left;
+    height: 400px;
+}
+p{
+    background: #000;
+    font-family: cursive;
+    color: white;
+    float: right;
+}

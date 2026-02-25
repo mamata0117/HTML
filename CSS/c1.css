@@ -3,8 +3,31 @@
         }h1{
     background: #dbebb2;
      color: rgb(23,6,78);
+     font-family: cursive;
         }
-        p{
-            background-color: royalblue;
+        /* p{
+            background-color: rgb(162, 171, 197);
+        } */
+        /* id is denoted by # and class is denoted by . in css */
+        /* #p1{
+            background-color: rgb(231, 10, 10); } */ 
+         .even{
+            background-color: rgb(231, 189, 189);
         }
-        /* 8:45 */
+        .odd{
+            background-color: olive;
+            /* font family is basically used to change the font of the text.  */
+            font-family: 'Courier New';
+        }
+        .font {
+            background-color: black;
+            color: green;
+            font-family: "Press Start 2P", "consolas";
+            font-style: italic;
+            font-size: 40px;
+            font-weight: bold;}
+        /* 
+        font family is basically used to change the font of the text. There are many font families available in CSS, such as Arial, Helvetica, Times New Roman, Courier New, and more. 
+        font style is used to specify the style of the font, such as normal, italic, or oblique.
+    
+the font family and font style properties can be used together to create a unique look for your text. For example, you can use the font family property to specify a specific font, and then use the font style property to make it italic or bold. */
