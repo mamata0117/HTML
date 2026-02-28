@@ -1,0 +1,21 @@
+/* li:nth-child(5)
+{
+    background-color: #eb5151;
+} */
+/* li:nth-child(even)
+{
+    background-color: #ecd611;
+} */
+li:nth-child(4n)
+/* if u pick 4n then all number related to 4 will be colored */
+{
+    background-color: #bc35dd;
+}
+h1{
+    /* text-shadow: 7px 5px 4px palevioletred; */
+    text-shadow: 7px 5px 4px palevioletred, -7px -5px 8px rgb(161, 236, 90);
+    /* 1st one is for x axis and if value is +ve shadow moves to right if -Ve to left .2nd for y axis +ve below,-ve up
+    and 3rd is for spread */
+}
+h1:hover{
+box-shadow: 7px -5px 4px rgb(119, 118, 118) ;}
